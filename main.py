@@ -1,5 +1,5 @@
-import time
-for i in range(10):
-    print(f"\rLoading... {i}", end="")
-    time.sleep(1)
-print("\nSelesai!")
+
+number = [6, 8, 5, 2, 3, 1, 4, 7]
+
+for i in len(number):
+    print(i)
