@@ -1,5 +1,8 @@
+a = 10
+b = 4
 
-number = [6, 8, 5, 2, 3, 1, 4, 7]
-
-for i in len(number):
-    print(i)
+print(f"{a:08b}")
+print(f"{b:08b}")
+print("-------- | ")
+hasil = a | b
+print(f"{hasil:08b}")
