@@ -1,8 +1,4 @@
-a = 10
-b = 4
+alfabet = []
 
-print(f"{a:08b}")
-print(f"{b:08b}")
-print("-------- | ")
-hasil = a | b
-print(f"{hasil:08b}")
+alfabet[:] = "hello world"
+print(alfabet)
